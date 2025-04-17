@@ -1,6 +1,6 @@
 # MLProject
 
-I have included in this repository the Notebooks used to train each generation of the NN model used in this project, and the reconstruction analysis notebook as well. The training files will not run as I have not included the datasets due to their large size, however you can look at them and see how each model was structured. 
+I have included in this repository the notebooks used to train each generation of the NN model used in this project, as well as the reconstruction analysis notebook. The training files will not run as I have not included the datasets due to their large size, however, you can look at them and see how each model was structured. 
 
 The following files were used to train each generation:
 
@@ -9,3 +9,5 @@ The following files were used to train each generation:
 3. Generation 3 - "HK-training.ipynb"
 
 The file "recon_check.ipynb" was used for all reconstruction analysis. You will require pytorch, matplotlib, numpy etc so it may be worth creating a virtual environment. 
+
+Inside recon_check, there are all of the metrics and plots used in the report, as well as a number of others that were not included, as the report already contains over 40 figures. They were helpful tools for developing the model however, so they have been left in the recon_check file so that you can see them yourself. 
